@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.3.1'
 
-  spec.add_runtime_dependency('json', '~> 2.1')
+  spec.add_runtime_dependency('json', '~> 2.0.1')
   spec.add_runtime_dependency('nokogiri', '~> 1.8')
   spec.add_runtime_dependency('savon', '~> 2.11')
 
