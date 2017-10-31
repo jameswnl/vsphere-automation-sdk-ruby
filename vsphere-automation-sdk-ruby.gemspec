@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir['{client,docs}/**/*', '[A-Z]*'].reject do |f|
     File.directory?(f)
   end
-  spec.require_paths = %w[client/sdk client/sdk/runtime/lib]
+  spec.require_paths = %w[client/sdk client/sdk/runtime/lib client/samples/lib]
 
   spec.required_ruby_version = '>= 2.3.1'
 
